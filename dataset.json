@@ -1,0 +1,119 @@
+[
+    {
+        "scenario": "A bloodthirsty rogue approaches you in the forest.",
+        "choices": [
+            "Shift and fight",
+            "Run away",
+            "Recruit the rogue"
+        ],
+        "outcome": {
+            "Shift and fight": "You fight bravely and defeat the rogue, gaining XP.",
+            "Run away": "You escape successfully, but you lose some respect among your pack.",
+            "Recruit the rogue": "The rogue sees your strength and agrees to join your pack, gaining you a new ally."
+        }
+    },
+    {
+        "scenario": "You encounter a rival Alpha who challenges you for leadership.",
+        "choices": [
+            "Accept the challenge and fight",
+            "Negotiate for peace",
+            "Surrender your position"
+        ],
+        "outcome": {
+            "Accept the challenge and fight": "You defeat the rival Alpha and your leadership strengthens. Your pack gains new members.",
+            "Negotiate for peace": "The rival Alpha agrees to a truce, and you gain a temporary ally.",
+            "Surrender your position": "You lose your status as Alpha, and the game ends."
+        }
+    },
+    {
+        "scenario": "A pack of rogues is spotted near your territory.",
+        "choices": [
+            "Attack them with your pack",
+            "Send a scout to investigate",
+            "Offer them a chance to join you"
+        ],
+        "outcome": {
+            "Attack them with your pack": "You successfully defeat the rogues, but you lose a few members of your pack.",
+            "Send a scout to investigate": "Your scout reports back safely, giving you vital information about the rogues’ strength.",
+            "Offer them a chance to join you": "The rogues agree to join your pack, increasing your strength, but some pack members are distrustful."
+        }
+    },
+    {
+        "scenario": "You meet a potential mate who could become your Luna.",
+        "choices": [
+            "Accept her as your Luna",
+            "Reject her",
+            "Ask your pack for their opinion"
+        ],
+        "outcome": {
+            "Accept her as your Luna": "She becomes your Luna, strengthening your leadership and giving you a loyal ally.",
+            "Reject her": "You reject her, and she leaves. Some pack members question your decision.",
+            "Ask your pack for their opinion": "Your pack supports the decision, and she becomes your Luna, increasing unity within the pack."
+        }
+    },
+    {
+        "scenario": "A powerful enemy pack declares war on you.",
+        "choices": [
+            "Fight them alone to prove your strength",
+            "Rally your allies and fight together",
+            "Surrender to avoid bloodshed"
+        ],
+        "outcome": {
+            "Fight them alone to prove your strength": "You bravely face the enemy alone but suffer serious injuries. The enemy is weakened but not defeated.",
+            "Rally your allies and fight together": "With the support of your allies, you defeat the enemy pack and gain new territory.",
+            "Surrender to avoid bloodshed": "You surrender and lose your territory. The game ends."
+        }
+    },
+    {
+        "scenario": "You find a valuable resource within your territory.",
+        "choices": [
+            "Use it to strengthen your pack",
+            "Trade it with neighboring packs",
+            "Hide it to keep it secret"
+        ],
+        "outcome": {
+            "Use it to strengthen your pack": "Your pack grows stronger with the resource, and morale increases.",
+            "Trade it with neighboring packs": "You trade the resource and gain valuable allies, but your own pack feels slightly weakened.",
+            "Hide it to keep it secret": "You keep the resource hidden, but some pack members discover it and distrust you for not sharing."
+        }
+    },
+    {
+        "scenario": "Your pack is facing a severe winter with food shortages.",
+        "choices": [
+            "Send out hunters to find food",
+            "Ask for help from neighboring packs",
+            "Use your stored resources sparingly"
+        ],
+        "outcome": {
+            "Send out hunters to find food": "Your hunters bring back enough food to survive the winter, but some are injured in the process.",
+            "Ask for help from neighboring packs": "A neighboring pack agrees to help, but they ask for a favor in return.",
+            "Use your stored resources sparingly": "Your pack survives the winter, but morale is low due to the harsh conditions."
+        }
+    },
+    {
+        "scenario": "You are scouting enemy territory and are ambushed by rogues.",
+        "choices": [
+            "Fight back and defend yourself",
+            "Call for reinforcements",
+            "Try to escape unnoticed"
+        ],
+        "outcome": {
+            "Fight back and defend yourself": "You manage to fend off the rogues, but you are wounded in the process.",
+            "Call for reinforcements": "Your reinforcements arrive and together you defeat the rogues.",
+            "Try to escape unnoticed": "You escape the ambush without injury, but the rogues now know your presence."
+        }
+    },
+    {
+        "scenario": "A rogue spy is discovered in your camp.",
+        "choices": [
+            "Execute the spy immediately",
+            "Interrogate the spy for information",
+            "Banish the spy and let them go"
+        ],
+        "outcome": {
+            "Execute the spy immediately": "The spy is executed, but some pack members fear your harsh decision.",
+            "Interrogate the spy for information": "You gain valuable information about the enemy, but the spy eventually escapes.",
+            "Banish the spy and let them go": "You banish the spy, but there is a risk they might return with reinforcements."
+        }
+    }
+]

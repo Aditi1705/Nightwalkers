@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Deadly Claws';
+    src: url('DeadlyClaws.woff2') format('woff2'),
+         url('DeadlyClaws.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Fallback to Arial */
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Default text color */
+}
+
+.home-screen {
+    background-image: url('/Frontend/werewolf.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+}
+
+.title-container {
+    text-align: center;
+}
+
+.spooky-title {
+    top: 0px;
+    font-family: 'Deadly Claws', serif;
+    color: rgb(125, 3, 3);
+    font-size: 45px; /* Big size */
+    text-shadow: 2px 2px 8px rgb(164, 164, 164);
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#start-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #000000; /* Red background */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#start-button:hover {
+    background-color: #860000; /* Darker red on hover */
+}
+
+.credits {
+    font-family:'Times New Roman', Times, serif;
+    position: absolute; /* Positioning to keep it at the bottom */
+    bottom: 20px; /* Space from the bottom */
+    text-align: center; /* Center the credits text */
+    font-size: 20px; /* Smaller font for credits */
+    color: #fff; /* White text for credits */
+}
+
+/*main-page*/
+.main-screen {
+    background-image: url('/Frontend/moon.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+}
+
+.rules {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.chat_container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #5b5a5a;
+    border-radius: 10px;
+}
+
+#chat_box{
+    height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+    background-color: #222;
+    border-radius: 10px;
+}
+
+#user_input{
+    background-color: #222;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #222;
+    color: white;
+}
+
+.user-message {
+    text-align: left;
+    margin: 5px 0;
+}
+
+.bot-message {
+    text-align: right;
+    margin: 5px 0;
+}
+
+
+
+
